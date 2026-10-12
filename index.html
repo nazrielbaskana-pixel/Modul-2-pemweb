@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Projek Profil Mahasiswa</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div id="header">
+        <h1>Portofolio Mahasiswa</h1>
+        <p>
+            <a href="#profil">Profil</a> | 
+            <a href="#tabel-info">Jadwal Kuliah</a> | 
+            <a href="#form-input">Form Input Data</a>
+        </p>
+    </div>
+
+    <div id="content">
+        
+        <!-- Bagian Profil -->
+        <h2 id="profil">Profil Saya</h2>
+        <p>Nama : Nazriel Rizki Dwi Baskana
+            Nim :6087022500026
+            Kelas : 49 -01
+        </p>
+
+        <h2 id="tabel-info">Jadwal Kuliah</h2>
+        <table border="1">
+            <tr>
+                <th>No</th>
+                <th>Hari</th>
+                <th>Jam</th>
+                <th>Mata Kuliah</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Senin</td>
+                <td>13.30 - 16.30</td>
+                <td>Pemrogaman Web</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Selasa</td>
+                <td>06.30 - 09.30</td>
+                <td>Sistem Komputer</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rabu</td>
+                <td>10.30 - 13.30</td>
+                <td>Layanan Jaringan</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <h2 id="form-input">Form Input Data Mahasiswa</h2>
+        <form action="#">
+            Nama: <input type="text" name="nama"><br><br>
+            NIM: <input type="text" name="nim"><br><br>
+            Jurusan:
+            <select name="jurusan">
+                <option value="TI">Teknik Informatika</option>
+                <option value="SI">Sistem Informasi</option>
+                <option value="TK">Teknik Komputer</option>
+            </select><br><br>
+            Hobi:<br>
+            <input type="checkbox" name="hobi" value="Membaca"> Membaca<br>
+            <input type="checkbox" name="hobi" value="Olahraga"> Olahraga<br>
+            <input type="checkbox" name="hobi" value="Bersepeda"> Bersepeda<br><br>
+            <input type="submit" value="Kirim">
+        </form>
+
+    </div>
+
+    <div id="footer">
+        <p>Nazriel Rizki Dwi Baskana - 607022500026</p>
+    </div>
+
+</body>
+</html>
