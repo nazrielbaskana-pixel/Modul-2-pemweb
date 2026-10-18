@@ -1,0 +1,9 @@
+body {
+    background-color: #53b8f2; /* Contoh menggunakan kode Hex (abu-abu muda) */
+}
+#header {
+    height: 150px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #abe6ff; /* Menambah warna latar belakang pada header */
+}

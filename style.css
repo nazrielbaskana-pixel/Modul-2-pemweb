@@ -20,6 +20,7 @@
     min-height: 400px;
     background-color: #f2f2f2;
     padding: 20px;
+    font-weight: bold;
 }
 
 #footer {
@@ -30,7 +31,6 @@
     padding-top: 15px;
 }
 
-/* Pengaturan Tabel */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -55,4 +55,9 @@ th {
     #content {
         padding: 10px;
     }
+}
+.biodata-item {
+    display: grid;
+    grid-template-columns: 180px 15px 1fr;
+    margin-bottom: 8px;
 }
