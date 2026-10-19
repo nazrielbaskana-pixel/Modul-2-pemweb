@@ -7,14 +7,12 @@ function validateForm() {
     alert("Kolom Nama harus diisi!");
     return false;
   } 
-  
-  // Cek jika kolom email kosong
+
   if (email === "") {
     alert("Kolom Email harus diisi!");
     return false;
   }
 
-  // Jika keduanya sudah terisi
   alert("Form berhasil dikirim!");
   return true; 
 }
