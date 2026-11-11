@@ -8,7 +8,6 @@ console.log("Hasil pengurangan:", hasilKurang);
 function kali(angka1, angka2) {
     return angka1 * angka2;
 }
-
 let hasilKali = kali(15, 4);
 console.log("Hasil perkalian:", hasilKali);
 

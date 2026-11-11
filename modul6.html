@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Validasi Form JavaScript</title>
+    <link rel="stylesheet" href="modul6.css">
+</head>
+<body>
+
+    <h2>Form Pendaftaran Praktikum</h2>
+
+    <form id="praktikumForm" onsubmit="validateForm(event)">
+        <div class="form-group">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" onblur="validateNama()">
+            <span id="errNama" class="error-message"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" onblur="validateEmail()">
+            <span id="errEmail" class="error-message"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="umur">Umur (1-100):</label>
+            <input type="number" id="umur" onblur="validateUmur()">
+            <span id="errUmur" class="error-message"></span>
+        </div>
+
+        <button type="submit">Submit Data</button>
+    </form>
+
+    <div id="statusSubmit" class="success-message"></div>
+
+    <script src="modul6.js"></script>
+</body>
+</html>
